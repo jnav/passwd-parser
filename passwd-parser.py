@@ -142,7 +142,7 @@ class PasswdParser:
                 else:
                     grp_extras += 1
 
-                return users_grp_map, grp_dict
+            return users_grp_map, grp_dict
 
     def parsePasswdFile(self, passwd_file_data, users_to_primary_group_map, group_dict):
         """ 
